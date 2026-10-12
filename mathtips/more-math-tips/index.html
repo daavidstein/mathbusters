@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+
+<!--[if IE 7]>
+<html class="ie ie7" lang="en">
+<![endif]-->
+<!--[if IE 8]>
+<html class="ie ie8" lang="en">
+<![endif]-->
+<!--[if !(IE 7) | !(IE 8)  ]><!-->
+<html lang="en">
+<!--<![endif]-->
+<head>
+<meta charset="utf-8"/>
+<meta content="IE=9; IE=8; IE=7; IE=EDGE" http-equiv="X-UA-Compatible"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<link href="http://gmpg.org/xfn/11" rel="profile"/>
+<!-- html5shiv for IE8 and less  -->
+<!--[if lt IE 9]>
+				      <script src="http://www.math-busters.com/wp-content/themes/customizr/inc/assets/js/html5.js"></script>
+				    <![endif]-->
+<title>More Math Tips | MathBusters! Tutoring</title>
+<link href="/mathbusters/wp-content/themes/customizr/style.css" id="parent-style-css" media="all" rel="stylesheet" type="text/css"/>
+<link href="/mathbusters/wp-content/themes/customizr/inc/assets/css/fonts/font-awesome.min.css" id="customizr-fa-css" media="all" rel="stylesheet" type="text/css"/>
+<link href="/mathbusters/wp-content/themes/customizr/inc/assets/css/tc_common.min.css" id="customizr-common-css" media="all" rel="stylesheet" type="text/css"/>
+<link href="/mathbusters/wp-content/themes/customizr/inc/assets/css/blue.min.css" id="customizr-skin-css" media="all" rel="stylesheet" type="text/css"/>
+<style id="customizr-skin-inline-css" type="text/css">
+        @font-face {
+          font-family: 'FontAwesome';
+          src:url("/mathbusters/wp-content/themes/customizr/inc/assets/css/fonts/fonts/fontawesome-webfont.eot");
+          src:url("/mathbusters/wp-content/themes/customizr/inc/assets/css/fonts/fonts/fontawesome-webfont.eot") format('embedded-opentype'),
+              url("/mathbusters/wp-content/themes/customizr/inc/assets/css/fonts/fonts/fontawesome-webfont.woff2") format('woff2'),
+              url("/mathbusters/wp-content/themes/customizr/inc/assets/css/fonts/fonts/fontawesome-webfont.woff") format('woff'),
+              url("/mathbusters/wp-content/themes/customizr/inc/assets/css/fonts/fonts/fontawesome-webfont.ttf") format('truetype'),
+              url("/mathbusters/wp-content/themes/customizr/inc/assets/css/fonts/fonts/fontawesome-webfont.svg") format('svg');
+        }
+        
+
+                .site-title,.site-description,h1,h2,h3,.tc-dropcap {
+                  font-family : 'Fjalla One';
+                  font-weight : 400;
+                }
+
+                body,.navbar .nav>li>a {
+                  font-family : 'Cantarell';
+                  font-weight : 400;
+                }
+
+          body,.navbar .nav>li>a {
+            font-size : 20px;
+            line-height : 27px;
+          }
+
+.sticky-enabled .tc-shrink-on .site-logo img {
+    					height:30px!important;width:auto!important
+    				}
+
+    				.sticky-enabled .tc-shrink-on .brand .site-title {
+    					font-size:0.6em;opacity:0.8;line-height:1.2em
+    				}
+
+          .comments-link .tc-comment-bubble {
+            color: #F00;
+            border: 2px solid #F00;
+          }
+          .comments-link .tc-comment-bubble:before {
+            border-color: #F00;
+          }
+        
+
+
+/* START OF Change Grey Bar between Navbar and Slider */
+/* 2px=thickness, solid=style (dotted - dashed - solid - double - groove - ridge - inset - outset), green=color */
+header.tc-header {
+border-bottom:  2px solid  #4169E1;
+ color: #0088cc;
+}
+/* END OF Change Grey Bar between Navbar and Slider */
+
+li.check:before
+{
+    content: \&#039;✔\&#039;;   
+    margin-left: -1em;
+    margin-right: .100em;
+}
+
+ul.check
+{
+   padding-left: 20px;
+   text-indent: 2px;
+   list-style: none;
+   list-style-position: outside;
+}
+
+h1 {
+  color: #0088cc;
+  text-decoration: none;
+font-family: \&#039;Bangers\&#039;, cursive;
+   font-size: 300%;
+  font-weight: normal;
+
+}
+h2 {
+  color: #0088cc;
+  text-decoration: none;
+}
+h3{
+  color: #0088cc;
+  text-decoration: none;
+
+}
+h2{
+  color: #0088cc;
+  text-decoration: none;
+
+h1{
+  color: #0088cc;
+  text-decoration: none;
+
+
+
+</style>
+<link href="/mathbusters/wp-content/themes/customizr-child/style.css" id="customizr-style-css" media="all" rel="stylesheet" type="text/css"/>
+<link href="/mathbusters/wp-content/themes/customizr/inc/assets/js/fancybox/jquery.fancybox-1.3.4.min.css" id="fancyboxcss-css" media="all" rel="stylesheet" type="text/css"/>
+<link href="/mathbusters/wp-content/plugins/yelp-widget-pro/includes/style/yelp.css" id="yelp-widget-css" media="all" rel="stylesheet" type="text/css"/>
+<script src="/mathbusters/wp-includes/js/jquery/jquery.js" type="text/javascript"></script>
+<script src="/mathbusters/wp-includes/js/jquery/jquery-migrate.min.js" type="text/javascript"></script>
+<script src="/mathbusters/wp-content/plugins/svg-support/js/min/svg-inline-min.js" type="text/javascript"></script>
+<script src="/mathbusters/wp-content/themes/customizr/inc/assets/js/fancybox/jquery.fancybox-1.3.4.min.js" type="text/javascript"></script>
+<script type="text/javascript">
+/* <![CDATA[ */
+var TCParams = {"_disabled":[],"FancyBoxState":"1","FancyBoxAutoscale":"1","SliderName":"","SliderDelay":"","SliderHover":"1","centerSliderImg":"1","SmoothScroll":{"Enabled":true,"Options":{"touchpadSupport":false}},"anchorSmoothScroll":"linear","anchorSmoothScrollExclude":{"simple":["[class*=edd]",".tc-carousel-control",".carousel-control","[data-toggle=\"modal\"]","[data-toggle=\"dropdown\"]","[data-toggle=\"tooltip\"]","[data-toggle=\"popover\"]","[data-toggle=\"collapse\"]","[data-toggle=\"tab\"]","[class*=upme]","[class*=um-]"],"deep":{"classes":[],"ids":[]}},"ReorderBlocks":"1","centerAllImg":"1","HasComments":"","LeftSidebarClass":".span3.left.tc-sidebar","RightSidebarClass":".span3.right.tc-sidebar","LoadModernizr":"1","stickyCustomOffset":{"_initial":0,"_scrolling":0,"options":{"_static":true,"_element":""}},"stickyHeader":"1","dropdowntoViewport":"","timerOnScrollAllBrowsers":"1","extLinksStyle":"","extLinksTargetExt":"","extLinksSkipSelectors":{"classes":["btn","button"],"ids":[]},"dropcapEnabled":"","dropcapWhere":{"post":"","page":""},"dropcapMinWords":"50","dropcapSkipSelectors":{"tags":["IMG","IFRAME","H1","H2","H3","H4","H5","H6","BLOCKQUOTE","UL","OL"],"classes":["btn"],"id":[]},"imgSmartLoadEnabled":"","imgSmartLoadOpts":{"parentSelectors":[".article-container",".__before_main_wrapper",".widget-front"],"opts":{"excludeImg":[".tc-holder-img"]}},"goldenRatio":"1.618","gridGoldenRatioLimit":"350","isSecondMenuEnabled":"","secondMenuRespSet":"in-sn-before"};
+/* ]]> */
+</script>
+<script src="/mathbusters/wp-content/themes/customizr/inc/assets/js/tc-scripts.min.js" type="text/javascript"></script>
+<link href="http://www.math-busters.com/mathtips/math-tips-and-secrets-for-success/" rel="prev" title="Math Tips"/>
+<link href="http://www.math-busters.com/mathtips/math-tips-3/" rel="next" title="Math Tips 3:"/>
+<link href="https://daavidstein.github.io/mathbusters/mathtips/more-math-tips/" rel="canonical"/>
+<link href="http://www.math-busters.com/?p=548" rel="shortlink"/>
+<style media="screen" type="text/css">
+	h4{ font-family:"Permanent Marker", arial, sans-serif;}
+</style>
+<!-- fonts delivered by Wordpress Google Fonts, a plugin by Adrian3.com --> <style type="text/css">.recentcomments a{display:inline !important;padding:0 !important;margin:0 !important;}</style>
+<style type="text/css">
+/* <![CDATA[ */
+img.latex { vertical-align: middle; border: none; }
+/* ]]> */
+</style>
+<link href="/mathbusters/wp-content/uploads/2016/11/MBbadge1.png" id="czr-favicon" rel="shortcut icon" type="image/png"/> <link href="/mathbusters/assets/archive.css" rel="stylesheet"/></head>
+<body class="single single-post postid-548 single-format-standard tc-fade-hover-links tc-no-sidebar tc-sticky-header sticky-disabled tc-transparent-on-scroll no-navbar skin-blue tc-regular-menu" itemscope="" itemtype="http://schema.org/WebPage"><div class="archive-notice" role="note">Historical archive of MathBusters! Tutoring. Services, booking, and contact forms are inactive.</div>
+<div class="" id="tc-page-wrap">
+<header class="tc-header clearfix row-fluid tc-tagline-off tc-title-logo-on tc-shrink-on tc-menu-on logo-left tc-second-menu-in-sn-before-when-mobile" role="banner">
+<div class="brand span3 pull-left">
+<a class="site-logo" href="/mathbusters/" title="MathBusters! Tutoring | The solution to all your math problems."><img alt="Back Home" class="attachment-873" data-no-retina="" src="/mathbusters/wp-content/uploads/2016/12/math-busters-tutoring-tampa-fl-text-logo.svg" style="max-width:250px;max-height:100px"/></a> </div> <!-- brand span3 -->
+<div class="container outside"><h2 class="site-description">The solution to all your math problems.</h2></div> <div class="navbar-wrapper clearfix span9 tc-submenu-fade tc-submenu-move tc-open-on-hover pull-menu-right">
+<div class="navbar resp">
+<div class="navbar-inner" role="navigation">
+<div class="row-fluid">
+<div class="social-block span5"><a aria-disabled="true" class="social-icon icon-email" title="E-mail"></a><a class="social-icon icon-facebook" href="https://www.facebook.com/mathbustersfl" target="_blank" title="Follow me on Facebook"></a><a class="social-icon icon-google" href="https://plus.google.com/+MathBustersTutoringTampa" target="_blank" title="Follow me on Google+"></a></div><h2 class="span7 inside site-description">The solution to all your math problems.</h2><div class="nav-collapse collapse tc-hover-menu-wrapper"><div class="menu-main-menu-container"><ul class="nav tc-hover-menu" id="menu-main-menu-2"><li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-13"><a href="/mathbusters/about/">About</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-103"><a href="/mathbusters/subjects/">Subjects</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-102"><a href="/mathbusters/testimonials/">Testimonials</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-327"><a href="/mathbusters/locations/">Locations</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-717"><a href="/mathbusters/online-tutoring/">Online Tutoring</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-110"><a href="/mathbusters/faq/">FAQ</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page current_page_parent menu-item-530"><a href="/mathbusters/blog/">Blog</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-885"><a href="/mathbusters/our-tutors/">Our Tutors</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-104"><a href="/mathbusters/contact-us/">Contact us</a></li>
+</ul></div></div><div class="btn-toggle-nav pull-right"><button class="btn menu-btn" data-target=".nav-collapse" data-toggle="collapse" title="Open the menu" type="button"><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span> </button></div> </div><!-- /.row-fluid -->
+</div><!-- /.navbar-inner -->
+</div><!-- /.navbar resp -->
+</div><!-- /.navbar-wrapper -->
+</header>
+<div class="container-fluid" id="tc-reset-margin-top" style="margin-top:103px"></div>
+<div class="container" id="main-wrapper">
+<div class="container" role="main">
+<div class="row column-content-wrapper">
+<div class="span12 article-container tc-gallery-style" id="content">
+<article class="post-548 post type-post status-publish format-standard hentry category-mathtips row-fluid" id="post-548">
+<header class="entry-header">
+<h1 class="entry-title format-icon">More Math Tips</h1><div class="entry-meta">This entry was posted in <a class="btn btn-mini btn-tag" href="/mathbusters/category/mathtips/" title="View all posts in Math Tips"> Math Tips </a> on <a href="/mathbusters/2016/08/07/" rel="bookmark" title="9:12 pm"><time class="entry-date updated" datetime="2016-08-07T21:12:29+00:00">August 7, 2016</time></a> <span class="by-author">by <span class="author vcard"><a class="url fn n" href="/mathbusters/author/admin/" rel="author" title="View all posts by admin">admin</a></span></span> </div><hr class="featurette-divider __before_content"/> </header>
+<section class="entry-content">
+<h2>Part 2: The Language of Math</h2>
+<div id="definitions">
+<img alt="matbusters tips" src="/mathbusters/wp-content/uploads/2016/08/matbusters-tips.svg" style="width:500px; height: auto;"/><br/>
+[huge_it_share]<br/>
+<br/> <br/>
+<h3>Know the definitions</h3>
+</div></section></article></div></div></div></div></div></body></html>
+<p><span style="font-weight: 400;">Math has its own language with its own vocabulary. You wouldn’t expect to do well on a cell biology test if you don’t know what a ribosome or an endoplasmic reticulum is. And chances are, you won’t get the best grade you can in your geometry class if you never learn the difference between corresponding angles and alternate interior angles. Most math textbooks make it very clear what their definitions are. They are usually inside a big colored rectangle and have the word </span><b>Definition </b><span style="font-weight: 400;">at the top. If you’re not understanding what a problem is asking, ask yourself if you know what all the words mean. If you don’t, and it seems like it might be a math word, go back through your book chapter and look through the definitions to see if it appears there. Or look up the word in the index at the back of the book, maybe it was in an earlier chapter and you just forgot about it. Make sure you periodically review the definitions you’ve learned so far to make sure you have them memorized, or at least can remember them with a little bit of thought.</span></p>
+<div id="lazy">
+<h3>Be lazy</h3>
+<p><span style="font-weight: 400;">Besides the definitions, you should memorize nothing else if at all possible. There are a few exceptions to this, but for the most part you want to reduce the number of formulas you need to memorize by simply knowing how to do the procedure that the formula is a “shortcut” for. Sometimes you will use a formula so much that you will just know it, and that’s fine. What if you forget the formula, though? If you know the procedure that produced the formula, you can re-derive it from first principles. This is the difference between a definition (or an axiom) and a theorem. A theorem is something that’s <a href="/mathbusters/mathtips/math-tips-4/#prove">proved</a>. A theorem follows from our basic assumptions. We can always get the theorem back if we understand the basics and use our brain. For instance I may forget the identity <img alt="\large \cos^2x = 1-\sin^2x. " class="latex" src="/mathbusters/assets/formulas/5766bec1964fce63.png" title="\large \cos^2x = 1-\sin^2x. "/>  But if I remember the unit circle and the pythagorean theorem, I can get <img alt="\large \sin^2x + \cos^2x = 1 " class="latex" src="/mathbusters/assets/formulas/0c97000b17edd6e2.png" title="\large \sin^2x + \cos^2x = 1 "> and do some algebra to get back <img alt="\large \cos^2x = 1-\sin^2x " class="latex" src="/mathbusters/assets/formulas/875d6d822ed75efa.png" title="\large \cos^2x = 1-\sin^2x "/>. Or I might have forgotten the quadratic formula. That’s okay, if I know how to complete the square and I use the square root property, I don’t need the quadratic formula.</img></span>
+</p></div>
+<h3>Understand the notation</h3>
+<p><span style="font-weight: 400;">“Notation” is just a fancy word meaning “the way we write math.” Understanding the standard way of writing things in math is obviously important if you’re going to get anywhere. Imagine trying to read a book without knowing the alphabet!</span></p>
+<p><span style="font-weight: 400;">Misunderstanding notation actually can get you the wrong answer sometimes. Imagine if I was asked to find <img alt="\sin^{-1}(1) " class="latex" src="/mathbusters/assets/formulas/246f391727c13a1a.png" title="\sin^{-1}(1) "/>. I remember that my teacher said <img alt="\sin^2(x) " class="latex" src="/mathbusters/assets/formulas/d6bff9477b218f14.png" title="\sin^2(x) "/> is just funny mathematical notation that means the same thing as <img alt="(\sin(x))^2 " class="latex" src="/mathbusters/assets/formulas/398f684a7654fd6b.png" title="(\sin(x))^2 "/>. That must mean that <img alt="\sin^{-1}(1) " class="latex" src="/mathbusters/assets/formulas/246f391727c13a1a.png" title="\sin^{-1}(1) "/> means the same thing as <img alt="(\sin(1))^{-1} " class="latex" src="/mathbusters/assets/formulas/0ccc5969ea37ed7d.png" title="(\sin(1))^{-1} "/> which means the same thing as 1/sin(1), right? I plug that into my calculator and get 57, which is the wrong answer. It’s the wrong answer because in this context, the power of -1 is not actually an exponent at all, but really just means “the inverse sine function,” and so <img alt="\sin^{-1}(x) " class="latex" src="/mathbusters/assets/formulas/a21097d675e3863a.png" title="\sin^{-1}(x) "/> gives me the angle between -90 degrees and +90 degrees that I would need to put into sin(x) to get 1. (in this case, the answer would be 90 degrees).</span></p>
+<p>“But that’s dumb! Why does a power of negative 1 mean one thing sometimes, and another thing a different time?” Well, it’s all about context. Mathematicians have adopted a <em>convention</em> (an agreed upon way of doing things) to interpret -1 in this way because it’s suggestive. <img alt="\frac{a}{b} " class="latex" src="/mathbusters/assets/formulas/fac0c43278fd145e.png" title="\frac{a}{b} "/> and <img alt="\frac{b}{a} " class="latex" src="/mathbusters/assets/formulas/085da790a2c9f1be.png" title="\frac{b}{a} "/> (which can also be written <img alt="(\frac{a}{b})^{-1} " class="latex" src="/mathbusters/assets/formulas/08b40920ffcb1bc8.png" title="(\frac{a}{b})^{-1} "/>) are <em>inverses</em> because they “undo” each other. If I multiply 5 by <img alt="\frac{2}{3} " class="latex" src="/mathbusters/assets/formulas/1e3a3015fd00a60e.png" title="\frac{2}{3} "/> and then multiply <em>that</em> by <img alt="\frac{3}{2} " class="latex" src="/mathbusters/assets/formulas/a89a3b386c22779c.png" title="\frac{3}{2} "/> I will get back 5, the thing I started with. Similarly, <img alt="\sin(x) " class="latex" src="/mathbusters/assets/formulas/064909f9ba4b5150.png" title="\sin(x) "/> and <img alt="\sin^{-1}(x) " class="latex" src="/mathbusters/assets/formulas/a21097d675e3863a.png" title="\sin^{-1}(x) "/> are inverses because <img alt="\sin^{-1}(\sin(x)) = x" class="latex" src="/mathbusters/assets/formulas/f4f8799109571ea6.png" title="\sin^{-1}(\sin(x)) = x"/> and <img alt="\sin(\sin^{-1}(x)) = x" class="latex" src="/mathbusters/assets/formulas/acab4e75599e590a.png" title="\sin(\sin^{-1}(x)) = x"/>. In other words plugging x into the sin function and then plugging <em>that</em> into the <img alt="\sin^{-1}" class="latex" src="/mathbusters/assets/formulas/8a5abcddc0180740.png" title="\sin^{-1}"/> function, we get back x, the thing we started with.</p>
+<h2>Do you need a math tutor in Tampa, FL?<br/>
+<h2>
+<h3><span style="color:grey"> Call </span><a aria-disabled="true">(813)-563-MATH!</a><span style="color:grey"> (563-6284)</span> </h3></h2></h2>
+<p class="small">We also do online tutoring in our virtual classroom, no matter where you are in the world!</p>
+<!-- .entry-content -->
+<div class="comments-area" id="comments">
+</div><!-- //#comments .comments-area -->
+<hr class="featurette-divider __after_loop"/>
+<nav class="navigation" id="nav-below" role="navigation">
+<h3 class="assistive-text">
+                Post navigation              </h3>
+<ul class="pager">
+<li class="previous">
+<span class="nav-previous">
+<a href="/mathbusters/mathtips/math-tips-and-secrets-for-success/" rel="prev"><span class="meta-nav">←</span> Math Tips</a> </span>
+</li>
+<li class="next">
+<span class="nav-next">
+<a href="/mathbusters/mathtips/math-tips-3/" rel="next">Math Tips 3: <span class="meta-nav">→</span></a> </span>
+</li>
+</ul>
+</nav><!-- //#nav-below .navigation -->
+<!--.article-container -->
+<!--.row -->
+<!-- .container role: main -->
+<!-- //#main-wrapper -->
+<!-- FOOTER -->
+<footer class="" id="footer">
+<div class="container footer-widgets">
+<div class="row widget-area" role="complementary">
+<div class="span4" id="footer_one">
+</div><!-- .{$key}_widget_class -->
+<div class="span4" id="footer_two">
+<aside class="widget widget_text" id="text-3"> <div class="textwidget"><div itemscope="" itemtype="http://schema.org/LocalBusiness">
+<p itemprop="name">MathBusters! Tutoring</p>
+<p itemprop="address" itemscope="" itemtype="http://schema.org/PostalAddress">
+<p itemprop="addressLocality">Tampa, FL,
+
+<span itemprop="postalCode">33604</span></p>
+<p itemprop="telephone">813-563-6284</p>
+<meta content="28.0112372" itemprop="latitude"/>
+<meta content="-82.46206810000001" itemprop="longitude"/>
+</p></div></div>
+</aside>
+</div><!-- .{$key}_widget_class -->
+<div class="span4" id="footer_three">
+</div><!-- .{$key}_widget_class -->
+</div><!-- .row.widget-area -->
+</div><!--.footer-widgets -->
+<div class="colophon">
+<div class="container">
+<div class="row-fluid">
+<div class="span3 social-block pull-left"></div><div class="span6 credits"><p>· <span class="tc-copyright-text">© 2026</span> <a href="#" rel="bookmark" title="MathBusters! Tutoring">MathBusters! Tutoring</a> · <span class="tc-credits-text">Designed by</span> <a href="http://presscustomizr.com/">Press Customizr</a> · <span class="tc-wp-powered-text">Powered by</span> <a class="icon-wordpress" href="https://wordpress.org" target="_blank" title="Powered by Wordpress"></a> ·</p></div><div class="span3 backtop"><p class="pull-right"><a class="back-to-top" href="#">Back to top</a></p></div> </div><!-- .row-fluid -->
+</div><!-- .container -->
+</div><!-- .colophon -->
+</footer>
+<!-- //#tc-page-wrapper -->
+<!-- MathJax Latex Plugin installed: Disabled as no shortcodes on this page -->
+<script src="/mathbusters/wp-includes/js/jquery/ui/core.min.js" type="text/javascript"></script>
+<script src="/mathbusters/wp-content/themes/customizr/inc/assets/js/modernizr.min.js" type="text/javascript"></script>

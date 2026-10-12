@@ -1,0 +1,158 @@
+/*
+Theme Name:     Customizr Child
+Theme URI:      http://www.math-busters.com/
+Description:    A child theme for the Customizr WordPress theme. This child theme simply includes 2 files : style.css to add your custom css and functions.php where you can extend Customizr's core code. In order to keep your code as clean and flexible as possible, try to use Customizr's hooks API for your customizations. Do something awesome and have fun !
+Author:         Daavid Stein
+Author URI:     http://www.math-busters.com
+Template:       customizr
+Version:        1.0.0
+*/
+
+/* Your awesome customizations start right here !
+-------------------------------------------------------------- */
+
+
+
+.entry-meta {
+display: none;
+}
+
+.gallery{
+position: relative;
+top: 30px;
+}
+
+.post h2.format-icon:before {
+content: none;
+position: relative;
+left: 200px;
+}
+
+
+ 
+.page h1.format-icon:before {
+content: url("/mathbusters/wp-content/uploads/2016/06/favicoTRANS.png");
+
+}
+
+
+.post h1.format-icon:before {
+content:  url("/mathbusters/wp-content/uploads/2016/06/favicoTRANS.png"); 
+  font-size: 3em;
+  line-height: 0px;
+  position: absolute;
+  top: -20px;
+  float:left;
+  left: 2%;
+  z-index:-1;
+
+}
+
+.post .entry-title {
+font-size: 200%;
+position: relative;
+right: 2%; 
+text-decoration: none;
+}
+
+
+article.page .format-icon:before {
+  content:  url("/mathbusters/wp-content/uploads/2016/06/favicoTRANS.png"); 
+  font-size: 3em;
+  line-height: 0px;
+  position: absolute;
+  top: 14px;
+  float:left;
+  z-index:-1;
+  
+}
+
+
+.page-id-2 article.page .entry-header {
+position: relative;
+left: -110px;
+}
+
+
+.page-id-2 article.page .format-icon:before {
+    content:  url("/mathbusters/wp-content/uploads/2016/06/favicoTRANS.png"); 
+  font-size: 3em;
+  line-height: 0px;
+  position: relative;
+  top: -15px;
+text-align: left;
+left: 110px;
+  
+  z-index:-1;
+}
+
+.page-id-381 article.page .entry-header {
+    display: none;
+}
+
+
+/*
+.page-id-2 article.page .format-icon:before {
+    content: url("/mathbusters/wp-content/uploads/2016/06/favicoTRANS.png");
+ font-size: 3em;
+  line-height: 0px;
+  position: absolute;
+  top: 514px;
+  float:left;
+  z-index:-1
+}
+@media only screen and (max-device-width: 480px) {
+
+.page-id-2 article.page .format-icon:before {
+    content: url("/mathbusters/wp-content/uploads/2016/06/favicoTRANS.png");
+ font-size: 3em;
+  line-height: 0px;
+  position: absolute;
+  top: 200px;
+  float:left;
+  z-index:-1  
+  }
+
+}
+*/
+h1 {
+  color: #0088cc;
+  text-decoration: none;
+font-family: 'Bangers', cursive;
+   font-size: 300%;
+
+}
+
+h4 { 
+font-weight: 50;
+font-size: 125%;
+line-height: 120%;
+}
+
+mbtext {  color: #0088cc;
+  text-decoration: none;
+font-family: 'Bangers', cursive;
+   font-size: 100%;
+
+}
+.typewriter {color: #000000;
+  font-family: "Courier New", Courier, "Lucida Sans Typewriter", "Lucida Typewriter", monospace;
+
+
+}
+.carousel-caption h1 {
+font-family: 'Fjalla One', sans-serif;
+
+}
+
+.carousel-caption p {
+   font-family: 'Fjalla One', sans-serif;
+
+}
+
+.carousel-caption .btn {
+   font-family: 'Fjalla One', sans-serif;
+
+}
+
+.entry-content ul li{list-style-image:url("/mathbusters/wp-content/uploads/2016/05/check.png"); }
