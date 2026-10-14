@@ -1,7 +1,7 @@
-@font-face{font-family:"Fjalla One";src:url("/mathbusters/assets/fonts/Yq6R-LCAWCX3-6Ky7FAFrOF6lw.ttf") format("truetype");font-weight:400;font-display:swap;}
-@font-face{font-family:"Cantarell";src:url("/mathbusters/assets/fonts/B50NF7ZDq37KMUvlO015jKJu.ttf") format("truetype");font-weight:400;font-display:swap;}
-@font-face{font-family:"Permanent Marker";src:url("/mathbusters/assets/fonts/Fh4uPib9Iyv2ucM6pGQMWimMp004La2Ceg.ttf") format("truetype");font-weight:400;font-display:swap;}
-@font-face{font-family:"Bangers";src:url("/mathbusters/assets/fonts/FeVQS0BTqb0h60ACH55Q3Q.ttf") format("truetype");font-weight:400;font-display:swap;}
+@font-face{font-family:"Fjalla One";src:url("/assets/fonts/Yq6R-LCAWCX3-6Ky7FAFrOF6lw.ttf") format("truetype");font-weight:400;font-display:swap;}
+@font-face{font-family:"Cantarell";src:url("/assets/fonts/B50NF7ZDq37KMUvlO015jKJu.ttf") format("truetype");font-weight:400;font-display:swap;}
+@font-face{font-family:"Permanent Marker";src:url("/assets/fonts/Fh4uPib9Iyv2ucM6pGQMWimMp004La2Ceg.ttf") format("truetype");font-weight:400;font-display:swap;}
+@font-face{font-family:"Bangers";src:url("/assets/fonts/FeVQS0BTqb0h60ACH55Q3Q.ttf") format("truetype");font-weight:400;font-display:swap;}
 .archive-notice{position:relative;z-index:10000;background:#fff;color:#333;border-bottom:1px solid #bbb;padding:8px 16px;text-align:center;font:14px/1.5 Arial,sans-serif;}
 .archived-form{opacity:.75}img{max-width:100%}textarea,input,select{max-width:100%;box-sizing:border-box}a[aria-disabled=true]{cursor:default}
 .eqn{max-width:100%;overflow-x:auto;padding:16px 0}.eqn math{font-size:22px}.eqn mtext{font-size:14px}

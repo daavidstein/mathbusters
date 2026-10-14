@@ -31,13 +31,13 @@ left: 200px;
 
  
 .page h1.format-icon:before {
-content: url("/mathbusters/wp-content/uploads/2016/06/favicoTRANS.png");
+content: url("/wp-content/uploads/2016/06/favicoTRANS.png");
 
 }
 
 
 .post h1.format-icon:before {
-content:  url("/mathbusters/wp-content/uploads/2016/06/favicoTRANS.png"); 
+content:  url("/wp-content/uploads/2016/06/favicoTRANS.png"); 
   font-size: 3em;
   line-height: 0px;
   position: absolute;
@@ -57,7 +57,7 @@ text-decoration: none;
 
 
 article.page .format-icon:before {
-  content:  url("/mathbusters/wp-content/uploads/2016/06/favicoTRANS.png"); 
+  content:  url("/wp-content/uploads/2016/06/favicoTRANS.png"); 
   font-size: 3em;
   line-height: 0px;
   position: absolute;
@@ -75,7 +75,7 @@ left: -110px;
 
 
 .page-id-2 article.page .format-icon:before {
-    content:  url("/mathbusters/wp-content/uploads/2016/06/favicoTRANS.png"); 
+    content:  url("/wp-content/uploads/2016/06/favicoTRANS.png"); 
   font-size: 3em;
   line-height: 0px;
   position: relative;
@@ -93,7 +93,7 @@ left: 110px;
 
 /*
 .page-id-2 article.page .format-icon:before {
-    content: url("/mathbusters/wp-content/uploads/2016/06/favicoTRANS.png");
+    content: url("/wp-content/uploads/2016/06/favicoTRANS.png");
  font-size: 3em;
   line-height: 0px;
   position: absolute;
@@ -104,7 +104,7 @@ left: 110px;
 @media only screen and (max-device-width: 480px) {
 
 .page-id-2 article.page .format-icon:before {
-    content: url("/mathbusters/wp-content/uploads/2016/06/favicoTRANS.png");
+    content: url("/wp-content/uploads/2016/06/favicoTRANS.png");
  font-size: 3em;
   line-height: 0px;
   position: absolute;
@@ -155,4 +155,4 @@ font-family: 'Fjalla One', sans-serif;
 
 }
 
-.entry-content ul li{list-style-image:url("/mathbusters/wp-content/uploads/2016/05/check.png"); }
+.entry-content ul li{list-style-image:url("/wp-content/uploads/2016/05/check.png"); }
